@@ -1,0 +1,213 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Black"fantasy;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #C1A3A3;
+}
+
+/* ................................................................................................................................. */
+
+
+
+
+
+/* HEADING SECTION */
+.main-heading {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.last-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* HEADING SECTION */
+
+
+
+
+
+
+
+/* ................................................................................................................................. */
+
+
+
+
+
+
+/* navbar-brand */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: "bold";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+/* ................................................................................................................................. */
+
+
+
+
+
+
+/* navbar-brand */
+
+
+
+
+
+
+
+/* DOWNLOAD BUTTON YHA P HMNE ESEH ACCURATE MARGIN DIYE HEIN */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* TITLE-IMAGE */
+.text-image {
+  width: 50%;
+  transform: rotate(25deg);
+  /* Equal to rotateZ(45deg) */
+}
+
+/* FEATURE SECTION */
+#features {
+  /* padding: 7% 15%; */
+  background-color: white;
+  /* z-index: 1;
+
+  /* padding: 7% 15%; */
+  /* the amount of % of padding on the text here is accurately done  */
+}
+
+.feature-box {
+  padding: 5%;
+  /* HERE PADDING HAS BEEN APPLIED TO MAKE THE TEXT DISTRIBUTED  */
+}
+
+/* GIVING PADDING TO THE IMAGES OVER THE MID background */
+.fas {
+  /* padding-bottom: 25px; */
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.fas:hover {
+  /* padding-bottom: 25px; */
+  color: #ff4c68;
+}
+
+/* Testimonials SECTION */
+#testimonials {
+  background-color: #ef8172;
+  /* padding: 7% 15%; */
+
+}
+
+.testimonials-IMAGE {
+  /* we will make the image smaller by shorting the width */
+  width: 10%;
+  border-radius: 100%;
+  /* HERE I HAVE MADE THE PICTURE IN A CIRCLE POSITION */
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 5%;
+
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* ................................................................................................................................. */
+/* PRICING TEXT HERE */
+.pricing {
+  padding: 100px;
+}
+
+/* .pricing-column{
+  padding: 3% 2%;
+  } */
+
+.price-heading-cost {
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* ................................................................................................................................. */
+.card-names-h3 {
+  font-family: "Ubuntu";
+}
+
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .text-image {
+    /* width: 50%; */
+    transform: rotate(0deg);
+    /* Equal to rotateZ(0deg) */
+  }
+}
+
+.actionclass {
+  background-color: #ff4c68;
+  color: white;
+
+
+}
+
+#footer {
+  color: white;
+
+  padding: 3% 7%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
